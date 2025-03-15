@@ -9,3 +9,8 @@ var (
 	EnvLogFolderPath = file.EnvLogFolderPath
 	IsDebug          = false
 )
+
+func SetLogFolder(folder string) {
+	file.DefaultLogFolder = folder
+	DefaultLogFolder = folder
+}

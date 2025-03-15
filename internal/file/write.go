@@ -8,7 +8,7 @@ import (
 	"github.com/nlgolib/env"
 )
 
-const DefaultLogFolder = "./logs"
+var DefaultLogFolder = "./logs"
 
 var EnvLogFolderPath = env.New("LOG_FOLDER_PATH")
 
