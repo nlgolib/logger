@@ -8,12 +8,19 @@ This project is a system logging management tool that allows you to manage your 
 go get github.com/nlgolib/logger
 ```
 
-## Functionality Highlights
+## Highlights
 
-- [x] Log DEBUG, INFO, WARN, ERROR
-- [x] Log Folder Management
+### Logging
+
+- [x] INFO logs
+- [x] WARN logs
+- [x] ERROR logs
+- [x] DEBUG logs
+- [x] Colored log level tag
+
+### Log File Management
 - [x] List Log Files
-- [x] Read Log File By Date
-- [x] Read Log File By Level
+- [x] Read Log Files By Date
+- [x] Read Log Files By Level
 - [x] Delete Log File
 - [x] Setup Log Folder Path
