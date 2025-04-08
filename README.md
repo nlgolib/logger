@@ -20,7 +20,9 @@ go get github.com/nlgolib/logger
 
 ### Log File Management
 - [x] List Log Files
-- [x] Read Log Files By Date
-- [x] Read Log Files By Level
+- [x] Read Log Files By Date and filtered by levels
 - [x] Delete Log File
-- [x] Setup Log Folder Path
+
+### Configs
+- [x] Set Debug Mode
+- [x] Set Log Folder Path

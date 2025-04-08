@@ -4,13 +4,9 @@ import (
 	"fmt"
 	"os"
 	"time"
-
-	"github.com/nlgolib/env"
 )
 
-var DefaultLogFolder = "./logs"
-
-var EnvLogFolderPath = env.New("LOG_FOLDER_PATH")
+var LogFolderPath = "./logs"
 
 func WriteLog(message string) {
 	filePath := getLogFilePath()
@@ -37,11 +33,7 @@ func getTodayLogFileName() string {
 }
 
 func getLogFolderPath() string {
-	appFolder := EnvLogFolderPath.String()
-	if appFolder == "" {
-		appFolder = DefaultLogFolder
-	}
-	return appFolder
+	return LogFolderPath
 }
 
 func getLogFilePath() string {
